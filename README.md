@@ -2,7 +2,7 @@
 
 <img width="744" height="248" alt="image" src="https://github.com/user-attachments/assets/ee2c2cb2-c855-42aa-882c-b22931e65db2" />
 
-Automating XORed Shellcode to Ready-to-Go EXE or DLL
+Automating the Conversion of XOR-Encoded Shellcode into Ready-to-Use EXE or DLL
 
 This tool was written in bash to avoid the routine of:
 
