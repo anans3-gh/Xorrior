@@ -16,11 +16,13 @@ The tool does all of the above in a single bash script and produces file outputs
  
  * Dynamic Link Library (DLL)
 
-Note: The tool requires that x86_64-w64-mingw32-g++ is installed.
+Note: The tool requires that x86_64-w64-mingw32-g++ and the mono c# compiler is installed.
 ```r
 sudo apt update
 
 sudo apt install g++-mingw-w64-x86-64
+
+sudo apt install mono-mcs
 ```
 
 
